@@ -15,7 +15,7 @@
 #
 
 logfile="omv_install.log"
-scriptversion="2.3.9"
+scriptversion="2.3.10"
 
 
 _log()
