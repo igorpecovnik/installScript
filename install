@@ -56,10 +56,10 @@ if [ ! -L "/sbin" ] || [ ! -L "/bin" ]; then
   exit 102
 fi
 
-if [ -f "/.dockerenv" ]; then
-  echo "Docker detected. OMV does not work in Docker!"
-  exit 103
-fi
+#if [ -f "/.dockerenv" ]; then
+  #echo "Docker detected. OMV does not work in Docker!"
+  #exit 103
+#fi
 
 if grep -q 'machine-lxc' /proc/1/cgroup; then
   echo "LXC detected. OMV does not work in LXC!"
