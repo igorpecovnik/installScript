@@ -208,7 +208,7 @@ case ${arch} in
     ;;
 esac
 
-codename="$(lsb_release --codename --short)"
+codename="bookworm"
 _log "Codename :: ${codename}"
 
 case ${codename} in
